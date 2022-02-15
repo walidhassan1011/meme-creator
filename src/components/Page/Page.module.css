@@ -1,0 +1,128 @@
+.main {
+  height: 100vh;
+
+  background-image: url(https://raw.githubusercontent.com/portexe/MemeCreator/master/src/bg.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  display: flex;
+  align-items: center;
+  background-size: cover;
+  /* justify-content: center; */
+  flex-direction: column;
+}
+.main h1 {
+  color: aliceblue;
+  font-weight: bolder;
+  text-transform: capitalize;
+  line-height: 50px;
+  font-size: 40px;
+  letter-spacing: 2px;
+}
+.container {
+  width: 100%;
+  margin-top: -20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.btn {
+  display: block;
+  margin: 10px;
+  margin-top: 20px;
+  min-width: 300px;
+  max-width: 200px;
+  outline: none;
+  border: none;
+  padding: 10px;
+  background-color: dodgerblue;
+  color: aliceblue;
+  border-radius: 20px;
+  text-align: center;
+  text-transform: capitalize;
+  font-weight: 700;
+  line-height: 20px;
+  letter-spacing: 2px;
+  font-size: 18px;
+  box-shadow: 5px 10px 15px rgba(0, 0, 0, 0.507);
+  transition: all ease 0.7ms;
+}
+.btnBox {
+  min-width: 100%;
+  margin-top: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.btn:hover {
+  transform: translateY(-5px);
+}
+.btn:focus {
+  transform: translatez(-5px);
+}
+.word {
+  min-width: 300px;
+  max-width: 200px;
+  margin-top: 20px;
+  padding: 10px;
+  border-radius: 10px;
+  border: none;
+  outline: none;
+}
+.inputBox {
+  min-width: 100%;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.image {
+  background-color: aliceblue;
+
+  box-shadow: 10px 0px 10px rgba(0, 0, 0, 0.63);
+  width: 300px;
+  height: 300px;
+  margin-top: 20px;
+}
+.image img {
+  width: 100%;
+  height: 100%;
+}
+.inputBox input::placeholder {
+  text-transform: capitalize;
+  letter-spacing: 2px;
+  font-weight: 400;
+  color: black;
+}
+@media only screen and (min-width: 992px) {
+  .image {
+    height: 200px;
+  }
+}
+@media only screen and (max-width: 300px) {
+  /* .container {
+    width: 40%;
+  } */
+
+  .image {
+    width: 200px;
+    height: 200px;
+  }
+  /* .container {
+    background-color: black;
+   
+  } */
+
+  .main {
+    width: 50vh;
+    height: 120vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-position: center;
+    background-size: cover;
+  }
+}

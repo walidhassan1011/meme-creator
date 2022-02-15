@@ -1,0 +1,50 @@
+.main {
+  height: 100vh;
+  display: flex;
+
+  align-items: center;
+  background-image: url(https://raw.githubusercontent.com/portexe/MemeCreator/master/src/bg.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  flex-direction: column;
+}
+.main h1 {
+  color: aliceblue;
+  font-weight: bolder;
+  text-transform: capitalize;
+  line-height: 50px;
+  font-size: 40px;
+  letter-spacing: 2px;
+}
+.btn {
+  display: block;
+  margin: 10px;
+  margin-top: 20px;
+  min-width: 300px;
+  max-width: 200px;
+  outline: none;
+  border: none;
+  padding: 10px;
+  background-color: dodgerblue;
+  color: aliceblue;
+  border-radius: 20px;
+  text-align: center;
+  text-transform: capitalize;
+  font-weight: 700;
+  line-height: 20px;
+  letter-spacing: 2px;
+  font-size: 18px;
+  box-shadow: 5px 10px 15px rgba(0, 0, 0, 0.507);
+  transition: all ease 0.7ms;
+}
+.image {
+  background-color: aliceblue;
+  width: 300px;
+
+  box-shadow: 10px 0px 10px rgba(0, 0, 0, 0.63);
+
+  margin-top: 20px;
+}
+.image img {
+  width: 100%;
+}
